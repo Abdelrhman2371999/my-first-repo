@@ -1,0 +1,3 @@
+mkdir -p /var/lib/nginx/state/
+chown nginx:nginx /var/lib/nginx/state/
+echo "<h1>Something went wrong (50x)</h1>" > /etc/nginx/custom_50x.html
